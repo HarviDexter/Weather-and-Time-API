@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Weather from "./components/Weather/Weather";
 import Main from "./components/main/Main";
+import Time from "./components/time/Time";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/weather" element={<Weather />} />
+          <Route path="/time" element={<Time />} />
         </Routes>
       </div>
     </Router>

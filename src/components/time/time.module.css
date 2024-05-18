@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 900px;
+  background-color: #e9e5d6;
+}
+.container2 {
+  padding: 70px;
+}
+.container2 button {
+  padding: 10px;
+}
+.container2 input {
+  padding: 10px;
+}
