@@ -1,0 +1,19 @@
+.container {
+  margin: 0 auto; /* Центрирование контейнера */
+  padding: 0 15px; /* Дополнительные отступы внутри контейнера */
+  background-color: #e9e5d6;
+  height: 780px;
+  padding-top: 1px;
+}
+.section {
+  margin-top: 50px;
+}
+.input {
+  padding: 10px;
+}
+.btn {
+  padding: 10px;
+}
+.btn:active {
+  background-color: teal;
+}

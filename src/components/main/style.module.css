@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: #e9e5d6;
+  height: 750px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto; /* Центрирование контейнера */
+  padding: 0 15px; /* Дополнительные отступы внутри контейнера */
+}
+
+.header {
+  background-color: #acb992;
+  margin-top: 15px;
+  padding: 10px 0; /* Добавление внутреннего отступа для .header */
+}
+.section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.section button {
+  padding: 100px 200px;
+  font-size: 50px;
+  background-color: #acb992;
+  cursor: pointer;
+}
+.section button:hover {
+  background-color: teal;
+}
+.section button:active {
+  background-color: rgb(65, 59, 156);
+}
