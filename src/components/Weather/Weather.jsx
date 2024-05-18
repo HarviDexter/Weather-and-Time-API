@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import Style from "../Weather/Style.module.css";
-
+import { useNavigate } from "react-router-dom";
 const Weather = () => {
+  const navigate = useNavigate();
   const apiKey = "c88c1f2b6686756664ac363069452c29";
 
   const [city, setCity] = useState("");
@@ -39,7 +40,9 @@ const Weather = () => {
   return (
     <div className={Style.container}>
       <div className={Style.section}>
-        <button className={Style.btn}>Вернуться</button>
+        <button className={Style.btn} onClick={() => navigate("/")}>
+          Вернуться
+        </button>
         <h1 className={Style.zag}>Узнай погоду в своем городе</h1>
         <input
           className={Style.input}
